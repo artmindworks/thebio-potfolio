@@ -41,10 +41,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${beluga.variable} ${articulat.variable} ${inter.variable} antialiased`}
-      >
+    <html
+      lang="en"
+      className={`${beluga.variable} ${articulat.variable} ${inter.variable}`}
+    >
+      <body className="antialiased">
         <Nav />
         <main>{children}</main>
         <Footer />
