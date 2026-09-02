@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-20 md:px-10 md:py-28">
       <p className="mb-6 text-sm text-[var(--fg-muted)]">About</p>
-      <h1 className="mb-10 font-[family-name:var(--font-display)] text-4xl font-extrabold tracking-tight md:text-6xl">
+      <h1 className="mb-10 font-[family-name:var(--font-display)] text-4xl font-extrabold tracking-normal md:text-6xl">
         theBIO
       </h1>
 
