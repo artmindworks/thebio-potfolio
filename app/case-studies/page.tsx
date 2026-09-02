@@ -31,7 +31,7 @@ export default function CaseStudies() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-20 md:px-10 md:py-28">
       <p className="mb-6 text-sm text-[var(--fg-muted)]">Portfolio</p>
-      <h1 className="mb-16 font-[family-name:var(--font-display)] text-5xl font-extrabold tracking-tight md:text-7xl">
+      <h1 className="mb-16 font-[family-name:var(--font-display)] text-5xl font-extrabold tracking-normal md:text-7xl">
         Case Studies
       </h1>
 
