@@ -11,6 +11,9 @@
   --leaf-gold: #c9a227;
   --line: rgba(245, 244, 240, 0.14);
   --line-on-paper: rgba(22, 52, 42, 0.18);
+  --font-display: var(--font-beluga), ui-sans-serif, system-ui, sans-serif;
+  --font-ui: var(--font-articulat), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
 @theme inline {
@@ -22,8 +25,6 @@
   --color-accent: var(--accent);
   --color-leaf-green: var(--leaf-green);
   --color-leaf-gold: var(--leaf-gold);
-  --font-display: var(--font-archivo);
-  --font-body: var(--font-inter);
 }
 
 * {
@@ -37,7 +38,7 @@ html {
 body {
   background: var(--bg);
   color: var(--fg);
-  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-body);
 }
 
 ::selection {
