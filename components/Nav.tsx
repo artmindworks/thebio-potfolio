@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const LINKS = [
@@ -18,11 +19,15 @@ export default function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--line)] bg-[var(--bg)]/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-10">
-        <Link
-          href="/"
-          className="font-[family-name:var(--font-display)] text-sm font-extrabold tracking-tight"
-        >
-          made by AMW
+        <Link href="/" className="shrink-0">
+          <Image
+            src="/images/logo.svg"
+            alt="made by AMW"
+            width={468}
+            height={200}
+            priority
+            className="h-6 w-auto"
+          />
         </Link>
 
         <nav className="hidden gap-8 md:flex">

@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="mx-auto flex min-h-[70vh] max-w-3xl flex-col justify-center px-6 py-20 md:px-10">
       <p className="mb-6 text-sm text-[var(--fg-muted)]">Contact</p>
-      <h1 className="mb-10 font-[family-name:var(--font-display)] text-6xl font-extrabold tracking-tight md:text-8xl">
+      <h1 className="mb-10 font-[family-name:var(--font-display)] text-6xl font-extrabold tracking-normal md:text-8xl">
         Let&rsquo;s
         <br />
         Connect

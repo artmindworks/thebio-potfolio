@@ -14,7 +14,7 @@ export default function Logofolio() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-20 md:px-10 md:py-28">
       <p className="mb-6 text-sm text-[var(--fg-muted)]">Portfolio</p>
-      <h1 className="mb-4 font-[family-name:var(--font-display)] text-5xl font-extrabold tracking-tight md:text-7xl">
+      <h1 className="mb-4 font-[family-name:var(--font-display)] text-5xl font-extrabold tracking-normal md:text-7xl">
         Logofolio
       </h1>
       <p className="mb-16 max-w-lg text-[var(--fg-muted)]">
@@ -32,7 +32,7 @@ export default function Logofolio() {
             key={name}
             className="flex aspect-square flex-col items-center justify-center gap-3 bg-[#0f0f12] p-6 transition-colors hover:bg-[#141417]"
           >
-            <div className="font-[family-name:var(--font-display)] text-2xl font-extrabold tracking-tight">
+            <div className="font-[family-name:var(--font-ui)] text-2xl font-extrabold tracking-tight">
               {name}
             </div>
             <span className="text-xs text-[var(--fg-muted)]">Mark placeholder</span>

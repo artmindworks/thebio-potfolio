@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 468.15 199.81">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #3b4aff;
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: ArticulatCF-Bold, 'Articulat CF';
+        font-size: 71.78px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <path class="cls-2" d="m156.26,78.69v94.7h-35.49v-43.26l-71.11,43.26H0l120.77-73.2,11.17-6.77,24.31-14.73Zm126.57,22.41l-42.29,24.9-43.66-25.79-13.67-8.07-21.03-12.42v120.08l34.7-20.46v-47.85l42.71,25.05,26.36-15.53,16.88-9.94v25.64h36.28v-76.97l-36.28,21.37Zm114.21-21.4c-.53-.35-.83-.54-.83-.54l-.61.42-23.01,15.66-16.42,11.18v-27.78h-31.54v77.61l31.54-20.32,39.43-25.41s.08-.05.17-.1l40.05,26.21,30.67,20.08,1.66,1.09v-79.16h-32.33v26.45l-15.76-10.32s-18.81-12.31-23.02-15.06Z"/>
+    <text class="cls-3" transform="translate(162.91 61.02)"><tspan x="0" y="0">m</tspan><tspan class="cls-1" x="64.75" y="0">a</tspan><tspan x="104.37" y="0">de </tspan><tspan class="cls-4" x="204.73" y="0">b</tspan><tspan x="245.72" y="0">y</tspan></text>
+  </g>
+</svg>

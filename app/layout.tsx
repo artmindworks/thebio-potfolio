@@ -1,19 +1,25 @@
 import type { Metadata } from "next";
-import { Archivo, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-const archivo = Archivo({
-  variable: "--font-archivo",
-  subsets: ["latin"],
-  weight: ["600", "700", "800", "900"],
+const beluga = localFont({
+  src: "../public/fonts/beluga.otf",
+  variable: "--font-beluga",
+  display: "swap",
 });
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+const articulat = localFont({
+  src: [
+    { path: "../public/fonts/ArticulatCF-Thin.otf", weight: "200", style: "normal" },
+    { path: "../public/fonts/ArticulatCF-Medium.ttf", weight: "500", style: "normal" },
+    { path: "../public/fonts/ArticulatCF-Bold.ttf", weight: "700", style: "normal" },
+    { path: "../public/fonts/ArticulatCF-ExtraBold.otf", weight: "800", style: "normal" },
+    { path: "../public/fonts/ArticulatCF-Heavy.otf", weight: "900", style: "normal" },
+  ],
+  variable: "--font-articulat",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -28,8 +34,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${archivo.variable} ${inter.variable} antialiased`}>
+    <html
+      lang="en"
+      className={`${beluga.variable} ${articulat.variable}`}
+    >
+      <body className="antialiased">
         <Nav />
         <main>{children}</main>
         <Footer />

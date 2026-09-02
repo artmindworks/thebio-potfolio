@@ -26,11 +26,15 @@ stand-ins. To swap in real assets:
    `<Image src="/logofolio/leaf.png" ... />` (use `next/image` for
    optimization).
 
-The two display fonts used across the original deck — Articulat CF and
-Beluga — are commercial fonts not available here. This site uses Archivo
-(a free, visually similar bold condensed grotesk) in their place. If you
-own licenses for Articulat CF / Beluga and want to self-host them, replace
-the `next/font/google` imports in `app/layout.tsx` with `next/font/local`.
+The site now uses your real fonts, self-hosted via `next/font/local`:
+- **Beluga** — big page headlines (`--font-display`)
+- **Articulat CF** (Thin/Medium/Bold/ExtraBold/Heavy) — nav, labels, card
+  titles, capability index, stats (`--font-ui`)
+- **Inter** (Google Fonts) — body paragraphs (`--font-body`)
+
+Font files live in `public/fonts/`. If you get updated weights or files,
+just replace them there — the paths in `app/layout.tsx` stay the same as
+long as filenames match.
 
 ## Run locally
 
