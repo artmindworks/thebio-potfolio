@@ -36,7 +36,7 @@ export default function Home() {
       {/* Hero */}
       <section className="mx-auto max-w-6xl px-6 pb-20 pt-20 md:px-10 md:pb-28 md:pt-28">
         <p className="mb-6 text-sm text-[var(--fg-muted)]">Portfolio — MadebyAMW</p>
-        <h1 className="font-[family-name:var(--font-display)] text-[13vw] font-extrabold leading-[1.05] tracking-tight md:text-[7.5rem]">
+        <h1 className="font-[family-name:var(--font-display)] text-[13vw] font-extrabold leading-[1.05] tracking-normal md:text-[7.5rem]">
           ORISUNBARE
           <br />
           IBRAHIM
@@ -92,7 +92,7 @@ export default function Home() {
       {/* Case studies preview */}
       <section className="mx-auto max-w-6xl px-6 py-20 md:px-10 md:py-28">
         <div className="mb-12 flex items-end justify-between">
-          <h2 className="font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight md:text-5xl">
+          <h2 className="font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-normal md:text-5xl">
             Case Studies
           </h2>
           <Link
