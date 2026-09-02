@@ -6,18 +6,18 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 const beluga = localFont({
-  src: "../public/font/beluga.otf",
+  src: "../public/fonts/beluga.otf",
   variable: "--font-beluga",
   display: "swap",
 });
 
 const articulat = localFont({
   src: [
-    { path: "../public/font/ArticulatCF-Thin.otf", weight: "200", style: "normal" },
-    { path: "../public/font/ArticulatCF-Medium.ttf", weight: "500", style: "normal" },
-    { path: "../public/font/ArticulatCF-Bold.ttf", weight: "700", style: "normal" },
-    { path: "../public/font/ArticulatCF-ExtraBold.otf", weight: "800", style: "normal" },
-    { path: "../public/font/ArticulatCF-Heavy.otf", weight: "900", style: "normal" },
+    { path: "../public/fonts/ArticulatCF-Thin.otf", weight: "200", style: "normal" },
+    { path: "../public/fonts/ArticulatCF-Medium.ttf", weight: "500", style: "normal" },
+    { path: "../public/fonts/ArticulatCF-Bold.ttf", weight: "700", style: "normal" },
+    { path: "../public/fonts/ArticulatCF-ExtraBold.otf", weight: "800", style: "normal" },
+    { path: "../public/fonts/ArticulatCF-Heavy.otf", weight: "900", style: "normal" },
   ],
   variable: "--font-articulat",
   display: "swap",
