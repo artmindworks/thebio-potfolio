@@ -36,7 +36,7 @@ export default function Home() {
       {/* Hero */}
       <section className="mx-auto max-w-6xl px-6 pb-20 pt-20 md:px-10 md:pb-28 md:pt-28">
         <p className="mb-6 text-sm text-[var(--fg-muted)]">Portfolio — MadebyAMW</p>
-        <h1 className="font-[family-name:var(--font-display)] text-[13vw] font-extrabold leading-[0.92] tracking-tight md:text-[7.5rem]">
+        <h1 className="font-[family-name:var(--font-display)] text-[13vw] font-extrabold leading-[1.05] tracking-tight md:text-[7.5rem]">
           ORISUNBARE
           <br />
           IBRAHIM
