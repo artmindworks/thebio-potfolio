@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0a0c;
+  --bg-paper: #f3ebdd;
+  --fg: #f5f4f0;
+  --fg-muted: #9a978f;
+  --fg-on-paper: #16342a;
+  --accent: #3355ff;
+  --leaf-green: #16342a;
+  --leaf-gold: #c9a227;
+  --line: rgba(245, 244, 240, 0.14);
+  --line-on-paper: rgba(22, 52, 42, 0.18);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-paper: var(--bg-paper);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-on-paper: var(--fg-on-paper);
+  --color-accent: var(--accent);
+  --color-leaf-green: var(--leaf-green);
+  --color-leaf-gold: var(--leaf-gold);
+  --font-display: var(--font-archivo);
+  --font-body: var(--font-inter);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
