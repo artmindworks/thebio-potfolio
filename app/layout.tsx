@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import SiteBackground from "@/components/SiteBackground";
 
 const beluga = localFont({
   src: "../public/fonts/beluga.otf",
@@ -22,6 +24,12 @@ const articulat = localFont({
   display: "swap",
 });
 
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+});
+
 export const metadata: Metadata = {
   title: "MadebyAMW — Ibrahim Babatunde Orisunbare",
   description:
@@ -36,11 +44,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${beluga.variable} ${articulat.variable}`}
+      className={`${beluga.variable} ${articulat.variable} ${inter.variable}`}
     >
       <body className="antialiased">
+        <SiteBackground />
         <Nav />
-        <main>{children}</main>
+        <main className="relative">{children}</main>
         <Footer />
       </body>
     </html>

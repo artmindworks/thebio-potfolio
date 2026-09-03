@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-20 md:px-10 md:py-28">
@@ -8,27 +10,45 @@ export default function About() {
 
       <div className="flex flex-col gap-6 text-lg leading-relaxed text-[var(--fg-muted)]">
         <p>
-          Ibrahim Babatunde Orisunbare is a Creative Director running{" "}
-          <span className="text-[var(--fg)]">MadebyAMW</span>, a one-man
-          studio built to operate at a full-stack level: brand strategy,
-          identity systems, verbal identity, campaign direction, packaging,
-          digital experience, production, and system design — under one
-          roof, for one point of view.
+          I&rsquo;m a Creative Director who treats brand as infrastructure,
+          not decoration.
         </p>
         <p>
-          His work spans pan-African brand development and a national
-          government technology agency engagement, built on a computer
-          science background that he treats as a genuine differentiator, not
-          a footnote — using AI as leverage across the creative process
-          rather than as a gimmick layered on at the end.
+          My background in Computer Science shapes how I think: every
+          identity I build is a system with logic, not a collection of
+          nice-looking artifacts but tied to rules that hold up across
+          teams, markets and years, not just a hero case study.
         </p>
         <p>
-          The studio is building toward senior Creative Director and
-          Executive Creative Director-level roles at global agencies and
-          holding companies. The current focus: a portfolio strong enough to
-          win larger brand clients and signal ECD-level thinking to
-          decision-makers evaluating that kind of work.
+          Across six-plus years, I have diversified through working from a
+          national government agency to higher educational institutions to
+          organizations building brand infrastructure across various
+          continents, building identity and design systems, campaign and
+          content direction, through to the production and governance
+          discipline that actually gets ambitious ideas shipped.
         </p>
+        <p>
+          I work fluently across Adobe Creative Suite and Figma, and use AI
+          tools deliberately for exploration, iteration and production speed
+          while keeping brand judgment, taste and final decisions human.
+        </p>
+        <p>
+          I don&rsquo;t hand off a nice mockup and hope it holds together. I
+          build the system that lets a brand stay itself at scale under real
+          production pressure, across every touchpoint, for years after
+          I&rsquo;ve left the room.
+        </p>
+      </div>
+
+      <div className="mt-16">
+        <p className="mb-6 text-sm text-[var(--fg-muted)]">Tools</p>
+        <Image
+          src="/images/tools.png"
+          alt="Adobe Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, and Figma"
+          width={1054}
+          height={383}
+          className="h-auto w-full max-w-md"
+        />
       </div>
 
       <div className="mt-16 border-t border-[var(--line)] pt-10">

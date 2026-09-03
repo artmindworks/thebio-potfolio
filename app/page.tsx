@@ -36,15 +36,7 @@ export default function Home() {
     <div>
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-[0.15]"
-          style={{
-            backgroundImage: "url('/images/grid-bg.svg')",
-            backgroundSize: "700px",
-            backgroundRepeat: "repeat",
-          }}
-        />
-        <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 pb-16 pt-20 md:grid-cols-[1.15fr_0.85fr] md:gap-8 md:px-10 md:pb-24 md:pt-28">
+        <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 pb-16 pt-20 md:grid-cols-[1fr_1.1fr] md:gap-6 md:px-10 md:pb-24 md:pt-28">
           <div>
             <p className="mb-6 text-sm text-[var(--fg-muted)]">Portfolio — MadebyAMW</p>
             <h1 className="font-[family-name:var(--font-display)] text-[13vw] font-extrabold leading-[1.05] tracking-normal md:text-[5.5rem]">
@@ -77,7 +69,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="relative mx-auto w-full max-w-sm md:max-w-none">
+          <div className="relative mx-auto w-full max-w-md md:max-w-none">
             <Image
               src="/images/headshot.png"
               alt="Ibrahim Babatunde Orisunbare"
